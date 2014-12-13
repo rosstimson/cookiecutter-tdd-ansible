@@ -1,0 +1,16 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: ansible_playbook
+  require_ansible_repo: true
+  hosts: test-kitchen
+  ansible_verbose: true
+  sudo: true
+
+platforms:
+  - name: centos-6.6
+
+suites:
+ - name: default

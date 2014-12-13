@@ -1,0 +1,9 @@
+---
+
+# This playbook deploys the {{ cookiecutter.repo_name }} role for testing.
+
+- hosts: test-kitchen
+  user: root
+
+  roles:
+    - {{ cookiecutter.role_name }}

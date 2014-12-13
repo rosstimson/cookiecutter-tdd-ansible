@@ -1,0 +1,4 @@
+---
+
+- name: install {{ cookiecutter.role_name }}
+  yum: name={{ cookiecutter.role_name }} state=present

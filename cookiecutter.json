@@ -1,0 +1,8 @@
+{
+  "full_name": "Your Name",
+  "email": "you@example.com",
+  "github_username": "gh-username",
+  "description": "A short description of the project.",
+  "role_name": "Name of Ansible role",
+  "year": "Current year"
+}
